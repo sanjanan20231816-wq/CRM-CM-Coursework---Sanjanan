@@ -1,0 +1,7 @@
+node_modules/
+data/datamart/*.db
+__pycache__/
+*.log
+report/
+~$*
+*.docx
