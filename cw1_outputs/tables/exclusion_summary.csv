@@ -1,7 +1,0 @@
-stage,rule,action,n
-1.1,ticker_format,INFO,2
-1.2,no_data,EXCLUDE,5
-1.2,padding_rows_dropped,INFO,15
-1.2,split_checked,INFO,61
-1.2,unequal_history,EXCLUDE,10
-1.2,volume_error,EXCLUDE,2

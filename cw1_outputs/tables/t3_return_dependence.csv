@@ -1,6 +1,0 @@
-solution,within_cluster_mean_corr,across_cluster_mean_corr,random_label_within_mean,random_label_within_sd,z_vs_random
-A_ward,0.3594,0.2802,0.2995,0.0028,21.6729
-A_kmeans,0.3499,0.2823,0.2996,0.002,24.8223
-B_ward,0.3123,0.2913,0.2995,0.0021,6.1709
-B_kmeans,0.3142,0.2931,0.2997,0.0025,5.7283
-sector (GICS),0.4144,0.2851,,,
