@@ -1,0 +1,23 @@
+{
+  "observation_date": "2024-12-31",
+  "n_trading_sessions": 1005,
+  "n_weekly_returns": 207,
+  "first_week": "2021-01-15",
+  "last_week": "2024-12-27",
+  "n_constituents_listed": 503,
+  "n_valid_after_validation": 486,
+  "n_common_set": 486,
+  "baseline": 20,
+  "window": 60,
+  "mult": 2.0,
+  "seed": 42,
+  "constituents_retrieved_utc": "2026-11-23T10:01:34+00:00",
+  "python": "3.13.18",
+  "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+  "pandas": "2.2.3",
+  "numpy": "2.4.6",
+  "yfinance": "0.2.66",
+  "scikit-learn": "1.6.1",
+  "scipy": "1.16.3",
+  "matplotlib": "3.10.0"
+}
