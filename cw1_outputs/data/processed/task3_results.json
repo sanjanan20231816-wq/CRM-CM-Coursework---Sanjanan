@@ -1,0 +1,111 @@
+{
+  "sector_association": {
+    "A_ward": {
+      "chi2": 354.8364,
+      "p_value": 0.0,
+      "cramers_V": 0.4272
+    },
+    "A_kmeans": {
+      "chi2": 272.8238,
+      "p_value": 0.0,
+      "cramers_V": 0.3746
+    },
+    "B_ward": {
+      "chi2": 66.3242,
+      "p_value": 0.0,
+      "cramers_V": 0.2612
+    },
+    "B_kmeans": {
+      "chi2": 78.2654,
+      "p_value": 0.0,
+      "cramers_V": 0.2317
+    }
+  },
+  "A_vs_B_agreement": {
+    "ward": {
+      "ARI_A_vs_B": 0.0393,
+      "cramers_V": 0.1656
+    },
+    "kmeans": {
+      "ARI_A_vs_B": 0.021,
+      "cramers_V": 0.1296
+    }
+  },
+  "return_dependence": {
+    "A_ward": {
+      "within_cluster_mean_corr": 0.3594,
+      "across_cluster_mean_corr": 0.2802,
+      "random_label_within_mean": 0.2995,
+      "random_label_within_sd": 0.0028,
+      "z_vs_random": 21.6729
+    },
+    "A_kmeans": {
+      "within_cluster_mean_corr": 0.3499,
+      "across_cluster_mean_corr": 0.2823,
+      "random_label_within_mean": 0.2996,
+      "random_label_within_sd": 0.002,
+      "z_vs_random": 24.8223
+    },
+    "B_ward": {
+      "within_cluster_mean_corr": 0.3123,
+      "across_cluster_mean_corr": 0.2913,
+      "random_label_within_mean": 0.2995,
+      "random_label_within_sd": 0.0021,
+      "z_vs_random": 6.1709
+    },
+    "B_kmeans": {
+      "within_cluster_mean_corr": 0.3142,
+      "across_cluster_mean_corr": 0.2931,
+      "random_label_within_mean": 0.2997,
+      "random_label_within_sd": 0.0025,
+      "z_vs_random": 5.7283
+    },
+    "sector (GICS)": {
+      "within_cluster_mean_corr": 0.4144,
+      "across_cluster_mean_corr": 0.2851,
+      "random_label_within_mean": NaN,
+      "random_label_within_sd": NaN,
+      "z_vs_random": NaN
+    }
+  },
+  "residual_dependence": {
+    "all_pairs_mean_corr": 0.299512973254134,
+    "residual_same_sector_mean_corr": 0.17295167692465224,
+    "residual_diff_sector_mean_corr": 0.0367500816073254
+  },
+  "pairs_beta_within_0.05": {
+    "n_pairs": 9007,
+    "corr_min": -0.10897071816941518,
+    "corr_median": 0.3593406480539894,
+    "corr_max": 0.9960388398398364
+  },
+  "adjustment_check": {
+    "corr_beta_adj_vs_close": 0.9999469628438525,
+    "mean_abs_beta_diff": 0.0025994926922742303,
+    "max_abs_beta_diff": 0.017116353670548867,
+    "mean_return_uplift_pct_per_week": 0.034729398385591526,
+    "mean_return_uplift_pct_annualised_approx": 1.8059287160507593,
+    "benchmark_adj_equals_close": true
+  },
+  "survivorship": {
+    "n_added_after_start": 72,
+    "n_total": 486,
+    "mann_whitney_p": 5.4556327012175e-06,
+    "table": [
+      {
+        "group": "added to index after 2021-01-01",
+        "n_shares": 72,
+        "mean_weekly_return_pct": 0.4669,
+        "median_weekly_return_pct": 0.4453,
+        "mean_beta": 1.3222
+      },
+      {
+        "group": "already constituents at 2021-01-01 (or date unknown)",
+        "n_shares": 414,
+        "mean_weekly_return_pct": 0.2542,
+        "median_weekly_return_pct": 0.2542,
+        "mean_beta": 0.9131
+      }
+    ]
+  }
+}

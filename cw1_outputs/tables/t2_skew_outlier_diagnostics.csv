@@ -1,0 +1,7 @@
+matrix,feature,skew_raw,skew_used,n_abs_z_gt_3,max_abs_z,transform
+A,mean_weekly_return,0.868,0.868,6.0,5.631,none
+A,beta,1.104,1.104,2.0,6.893,none
+B,R,3.646,3.646,11.0,9.455,none
+B,F,0.425,0.425,5.0,3.769,none
+B,M_usd,11.684,1.079,7.0,4.848,log1p
+B,R (candidate log1p),3.646,1.583,,,candidate only

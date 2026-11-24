@@ -1,0 +1,4 @@
+cluster,n_shares,share_pct,return_mean_pct_wk,return_median_pct_wk,beta_mean,beta_median,R_mean_days,R_median_days,F_mean,F_median,M_median_usd_bn,M_mean_usd_bn
+0,250,51.44,0.253,0.249,0.94,0.927,12.12,11.0,3.36,3.0,11.178,11.764
+1,82,16.872,0.286,0.244,1.009,1.047,58.305,54.5,2.098,2.0,17.849,47.159
+2,154,31.687,0.338,0.325,1.01,0.989,13.682,11.0,2.864,3.0,39.695,80.145

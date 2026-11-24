@@ -1,0 +1,107 @@
+{
+  "n_common": 486,
+  "selected_k": {
+    "A_ward": {
+      "k": 5,
+      "rule": "max silhouette, k>=3, smallest cluster >=5%"
+    },
+    "A_kmeans": {
+      "k": 5,
+      "rule": "max silhouette, k>=3, smallest cluster >=5%"
+    },
+    "B_ward": {
+      "k": 3,
+      "rule": "max silhouette, k>=3, smallest cluster >=5%"
+    },
+    "B_kmeans": {
+      "k": 4,
+      "rule": "max silhouette, k>=3, smallest cluster >=5%"
+    }
+  },
+  "pca_B_explained_variance": [
+    0.4579357461305493,
+    0.3364729902304569
+  ],
+  "ari_ward_vs_kmeans": {
+    "A": 0.3183,
+    "B": 0.318
+  },
+  "corr_pearson": {
+    "R": {
+      "R": 1.0,
+      "F": -0.346,
+      "log1p_M": 0.152
+    },
+    "F": {
+      "R": -0.346,
+      "F": 1.0,
+      "log1p_M": 0.013
+    },
+    "log1p_M": {
+      "R": 0.152,
+      "F": 0.013,
+      "log1p_M": 1.0
+    }
+  },
+  "corr_spearman": {
+    "R": {
+      "R": 1.0,
+      "F": -0.196,
+      "log1p_M": 0.137
+    },
+    "F": {
+      "R": -0.196,
+      "F": 1.0,
+      "log1p_M": -0.048
+    },
+    "log1p_M": {
+      "R": 0.137,
+      "F": -0.048,
+      "log1p_M": 1.0
+    }
+  },
+  "pc1_share_B": 0.45793574613054955,
+  "monetary_removal": {
+    "k": 3,
+    "ARI_full_vs_RF": 0.2911507117637305,
+    "eta2_logM_full": 0.5161967231786032,
+    "eta2_logM_RF_only": 0.004121951494624908,
+    "silhouette_RF_only": 0.48796857106685354,
+    "silhouette_full": 0.30397871976038954,
+    "ARI_alt_R_treatment": 0.881957823521648,
+    "LOG_R_used": false
+  },
+  "seed": 42,
+  "n_init": 50,
+  "k_range": [
+    2,
+    8
+  ],
+  "cluster_sizes": {
+    "A_ward": [
+      66,
+      98,
+      182,
+      92,
+      48
+    ],
+    "A_kmeans": [
+      131,
+      166,
+      112,
+      27,
+      50
+    ],
+    "B_ward": [
+      250,
+      82,
+      154
+    ],
+    "B_kmeans": [
+      122,
+      212,
+      61,
+      91
+    ]
+  }
+}

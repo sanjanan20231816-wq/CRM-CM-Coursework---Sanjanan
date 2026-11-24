@@ -1,0 +1,3 @@
+algorithm,ARI_A_vs_B,cramers_V
+ward,0.0393,0.1656
+kmeans,0.021,0.1296

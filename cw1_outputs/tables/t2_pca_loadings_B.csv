@@ -1,0 +1,5 @@
+,PC1,PC2
+R,0.711,0.023
+F,-0.65,0.402
+log1p_M,0.268,0.915
+explained_variance_ratio,0.458,0.336

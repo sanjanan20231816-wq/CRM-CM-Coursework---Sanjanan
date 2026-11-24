@@ -1,0 +1,96 @@
+ticker,stage,rule,detail,action
+BRK-B,1.1,ticker_format,BRK.B -> BRK-B,INFO
+BF-B,1.1,ticker_format,BF.B -> BF-B,INFO
+MMM,1.2,split_checked,"split 1.196:1 on 2024-04-01, max |ret| 0.06",INFO
+GOOGL,1.2,split_checked,"split 20.0:1 on 2022-07-18, max |ret| 0.06",INFO
+GOOG,1.2,split_checked,"split 20.0:1 on 2022-07-18, max |ret| 0.06",INFO
+AMZN,1.2,split_checked,"split 20.0:1 on 2022-06-06, max |ret| 0.06",INFO
+APH,1.2,split_checked,"split 2.0:1 on 2021-03-05, max |ret| 0.04",INFO
+APH,1.2,split_checked,"split 2.0:1 on 2024-06-12, max |ret| 0.02",INFO
+APP,1.2,padding_rows_dropped,70 all-NaN rows,INFO
+APP,1.2,unequal_history,70 benchmark days absent; first obs 2021-04-15 (late listing),EXCLUDE
+ANET,1.2,split_checked,"split 4.0:1 on 2021-11-18, max |ret| 0.03",INFO
+ANET,1.2,split_checked,"split 4.0:1 on 2024-12-04, max |ret| 0.02",INFO
+T,1.2,split_checked,"split 1.324:1 on 2022-04-11, max |ret| 0.08",INFO
+BDX,1.2,split_checked,"split 1.025:1 on 2022-04-01, max |ret| 0.03",INFO
+TECH,1.2,split_checked,"split 4.0:1 on 2022-11-30, max |ret| 0.04",INFO
+AVGO,1.2,split_checked,"split 10.0:1 on 2024-07-15, max |ret| 0.08",INFO
+CMG,1.2,split_checked,"split 50.0:1 on 2024-06-26, max |ret| 0.05",INFO
+CTAS,1.2,split_checked,"split 4.0:1 on 2024-09-12, max |ret| 0.03",INFO
+COIN,1.2,padding_rows_dropped,69 all-NaN rows,INFO
+COIN,1.2,unequal_history,69 benchmark days absent; first obs 2021-04-14 (late listing),EXCLUDE
+CEG,1.2,padding_rows_dropped,263 all-NaN rows,INFO
+CEG,1.2,unequal_history,263 benchmark days absent; first obs 2022-01-19 (late listing),EXCLUDE
+COO,1.2,split_checked,"split 4.0:1 on 2024-02-20, max |ret| 0.03",INFO
+CPRT,1.2,split_checked,"split 2.0:1 on 2022-11-04, max |ret| 0.03",INFO
+CPRT,1.2,split_checked,"split 2.0:1 on 2023-08-22, max |ret| 0.05",INFO
+CSGP,1.2,split_checked,"split 10.0:1 on 2021-06-28, max |ret| 0.04",INFO
+CSX,1.2,split_checked,"split 3.0:1 on 2021-06-29, max |ret| 0.02",INFO
+DHR,1.2,split_checked,"split 1.128:1 on 2023-10-02, max |ret| 0.03",INFO
+DECK,1.2,split_checked,"split 6.0:1 on 2024-09-17, max |ret| 0.03",INFO
+DELL,1.2,split_checked,"split 1.973:1 on 2021-11-02, max |ret| 0.03",INFO
+DXCM,1.2,split_checked,"split 4.0:1 on 2022-06-13, max |ret| 0.07",INFO
+DTE,1.2,split_checked,"split 1.175:1 on 2021-07-01, max |ret| 0.01",INFO
+ETR,1.2,split_checked,"split 2.0:1 on 2024-12-13, max |ret| 0.02",INFO
+EXC,1.2,split_checked,"split 1.402:1 on 2022-02-02, max |ret| 0.04",INFO
+EXE,1.2,padding_rows_dropped,26 all-NaN rows,INFO
+EXE,1.2,unequal_history,26 benchmark days absent; first obs 2021-02-10 (late listing),EXCLUDE
+FDXF,1.2,padding_rows_dropped,1005 all-NaN rows,INFO
+FDXF,1.2,no_data,all rows empty,EXCLUDE
+FERG,1.2,volume_error,27 days with zero/negative volume,EXCLUDE
+FLEX,1.2,split_checked,"split 1.327:1 on 2024-01-03, max |ret| 0.04",INFO
+FTNT,1.2,split_checked,"split 5.0:1 on 2022-06-23, max |ret| 0.04",INFO
+GE,1.2,split_checked,"split 0.125:1 on 2021-08-02, max |ret| 0.03",INFO
+GE,1.2,split_checked,"split 1.281:1 on 2023-01-04, max |ret| 0.06",INFO
+GE,1.2,split_checked,"split 1.253:1 on 2024-04-02, max |ret| 0.07",INFO
+GEHC,1.2,padding_rows_dropped,492 all-NaN rows,INFO
+GEHC,1.2,unequal_history,492 benchmark days absent; first obs 2022-12-15 (late listing),EXCLUDE
+GEV,1.2,padding_rows_dropped,812 all-NaN rows,INFO
+GEV,1.2,unequal_history,812 benchmark days absent; first obs 2024-03-27 (late listing),EXCLUDE
+HONA,1.2,padding_rows_dropped,1005 all-NaN rows,INFO
+HONA,1.2,no_data,all rows empty,EXCLUDE
+IBM,1.2,split_checked,"split 1.046:1 on 2021-11-04, max |ret| 0.03",INFO
+ILMN,1.2,split_checked,"split 1.028:1 on 2024-06-25, max |ret| 0.04",INFO
+IP,1.2,split_checked,"split 1.056:1 on 2021-10-01, max |ret| 0.02",INFO
+ISRG,1.2,split_checked,"split 3.0:1 on 2021-10-05, max |ret| 0.04",INFO
+J,1.2,split_checked,"split 1.197:1 on 2024-09-30, max |ret| 0.03",INFO
+LH,1.2,split_checked,"split 1.164:1 on 2023-07-03, max |ret| 0.01",INFO
+LRCX,1.2,split_checked,"split 10.0:1 on 2024-10-03, max |ret| 0.02",INFO
+MRK,1.2,split_checked,"split 1.048:1 on 2021-06-03, max |ret| 0.02",INFO
+MCHP,1.2,split_checked,"split 2.0:1 on 2021-10-13, max |ret| 0.03",INFO
+MNST,1.2,split_checked,"split 2.0:1 on 2023-03-28, max |ret| 0.03",INFO
+NDAQ,1.2,split_checked,"split 3.0:1 on 2022-08-29, max |ret| 0.03",INFO
+NVDA,1.2,split_checked,"split 4.0:1 on 2021-07-20, max |ret| 0.04",INFO
+NVDA,1.2,split_checked,"split 10.0:1 on 2024-06-10, max |ret| 0.05",INFO
+ODFL,1.2,split_checked,"split 2.0:1 on 2024-03-28, max |ret| 0.02",INFO
+PCAR,1.2,split_checked,"split 1.5:1 on 2023-02-08, max |ret| 0.02",INFO
+PANW,1.2,split_checked,"split 3.0:1 on 2022-09-14, max |ret| 0.03",INFO
+PANW,1.2,split_checked,"split 2.0:1 on 2024-12-16, max |ret| 0.06",INFO
+Q,1.2,padding_rows_dropped,1005 all-NaN rows,INFO
+Q,1.2,no_data,all rows empty,EXCLUDE
+RJF,1.2,split_checked,"split 1.5:1 on 2021-09-22, max |ret| 0.05",INFO
+RDDT,1.2,padding_rows_dropped,808 all-NaN rows,INFO
+RDDT,1.2,unequal_history,808 benchmark days absent; first obs 2024-03-21 (late listing),EXCLUDE
+O,1.2,split_checked,"split 1.032:1 on 2021-11-15, max |ret| 0.02",INFO
+HOOD,1.2,padding_rows_dropped,143 all-NaN rows,INFO
+HOOD,1.2,unequal_history,143 benchmark days absent; first obs 2021-07-29 (late listing),EXCLUDE
+SNDK,1.2,padding_rows_dropped,1005 all-NaN rows,INFO
+SNDK,1.2,no_data,all rows empty,EXCLUDE
+SRE,1.2,split_checked,"split 2.0:1 on 2023-08-22, max |ret| 0.02",INFO
+SHW,1.2,split_checked,"split 3.0:1 on 2021-04-01, max |ret| 0.02",INFO
+SW,1.2,volume_error,424 days with zero/negative volume,EXCLUDE
+SOLV,1.2,padding_rows_dropped,811 all-NaN rows,INFO
+SOLV,1.2,unequal_history,811 benchmark days absent; first obs 2024-03-26 (late listing),EXCLUDE
+SMCI,1.2,split_checked,"split 10.0:1 on 2024-10-01, max |ret| 0.12",INFO
+TSLA,1.2,split_checked,"split 3.0:1 on 2022-08-25, max |ret| 0.03",INFO
+TPL,1.2,split_checked,"split 3.0:1 on 2024-03-27, max |ret| 0.03",INFO
+TSCO,1.2,split_checked,"split 5.0:1 on 2024-12-20, max |ret| 0.04",INFO
+VLTO,1.2,padding_rows_dropped,692 all-NaN rows,INFO
+VLTO,1.2,unequal_history,692 benchmark days absent; first obs 2023-10-04 (late listing),EXCLUDE
+VYLR,1.2,padding_rows_dropped,1005 all-NaN rows,INFO
+VYLR,1.2,no_data,all rows empty,EXCLUDE
+WRB,1.2,split_checked,"split 1.5:1 on 2022-03-24, max |ret| 0.02",INFO
+WRB,1.2,split_checked,"split 1.5:1 on 2024-07-11, max |ret| 0.02",INFO
+WMT,1.2,split_checked,"split 3.0:1 on 2024-02-26, max |ret| 0.02",INFO
+WSM,1.2,split_checked,"split 2.0:1 on 2024-07-09, max |ret| 0.05",INFO
+ZBH,1.2,split_checked,"split 1.03:1 on 2022-03-01, max |ret| 0.03",INFO
