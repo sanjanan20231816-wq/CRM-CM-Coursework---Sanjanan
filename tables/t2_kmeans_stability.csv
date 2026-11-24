@@ -1,0 +1,3 @@
+matrix,k,inertia_n_init50,inertia_single_start_min,inertia_single_start_max,share_single_starts_worse_than_base,ARI_vs_base_min,ARI_vs_base_mean
+A,5,309.613,309.8002,364.5083,1.0,0.9104,0.9402
+B,4,609.8325,609.8325,790.0793,0.6,0.9939,0.9982

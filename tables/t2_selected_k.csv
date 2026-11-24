@@ -1,0 +1,5 @@
+solution,k,rule
+A_ward,5,"max silhouette, k>=3, smallest cluster >=5%"
+A_kmeans,5,"max silhouette, k>=3, smallest cluster >=5%"
+B_ward,3,"max silhouette, k>=3, smallest cluster >=5%"
+B_kmeans,4,"max silhouette, k>=3, smallest cluster >=5%"

@@ -1,0 +1,30 @@
+matrix,ticker,company,mean_weekly_return,beta,R,F,log1p_M
+A,XYZ,"Block, Inc.",-1.67,3.76,,,
+A,CVNA,Carvana,3.06,6.89,,,
+A,FIX,Comfort Systems USA,3.19,0.89,,,
+A,NVDA,Nvidia,4.06,2.83,,,
+A,SMCI,Supermicro,5.63,1.99,,,
+A,VRT,Vertiv,3.67,2.53,,,
+A,VST,Vistra Corp.,3.22,0.11,,,
+B,APD,Air Products,,,3.03,-1.5,0.34
+B,AMZN,Amazon,,,-0.44,1.51,3.39
+B,AAPL,Apple Inc.,,,-0.44,-0.74,3.69
+B,AZO,AutoZone,,,3.64,-2.25,0.27
+B,AVGO,Broadcom,,,-0.44,2.26,3.03
+B,COR,Cencora,,,3.83,-2.25,-0.1
+B,CB,Chubb Limited,,,3.83,-2.25,0.29
+B,CI,Cigna,,,-0.35,3.77,0.72
+B,DUK,Duke Energy,,,3.83,-2.25,0.18
+B,FOXA,Fox Corporation (Class A),,,-0.44,3.02,-0.76
+B,FCX,Freeport-McMoRan,,,3.55,-2.25,0.41
+B,HSY,Hershey Company (The),,,-0.02,3.77,0.18
+B,HRL,Hormel Foods,,,3.83,-2.25,-1.58
+B,MKC,McCormick & Company,,,3.31,-2.25,-0.95
+B,MDT,Medtronic,,,3.83,-2.25,0.48
+B,META,Meta Platforms,,,-0.44,0.01,3.28
+B,MSFT,Microsoft,,,-0.44,-0.74,3.53
+B,NVDA,Nvidia,,,9.46,-2.25,4.83
+B,TSLA,"Tesla, Inc.",,,1.39,1.51,4.85
+B,UNH,UnitedHealth Group,,,-0.3,3.02,2.19
+B,WEC,WEC Energy Group,,,6.13,-2.25,-0.61
+B,XEL,Xcel Energy,,,-0.44,3.02,-0.26
